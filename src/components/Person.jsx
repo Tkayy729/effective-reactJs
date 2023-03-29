@@ -1,6 +1,8 @@
 import React from 'react';
 
 const Person = ({ name, email, order }) => {
+  // order.id= 5
+  // DO not mutate props attributes in children components
   return (
     <>
       <div>
